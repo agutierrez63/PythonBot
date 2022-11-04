@@ -1,0 +1,13 @@
+------------------------------------------------------------------------------- K.A.R.A Menu
+MAIN FUNCTIONS:
+	>>> Play a song
+	>>> Tell a joke
+	>>> Define a word
+	>>> Launch
+	>>> Send Text Message
+	>>> Send E-mail
+	>>> Time
+	>>> Current Weather or Forecast
+	>>> Face Recognition
+	>>> Print Menu
+------------------------------------------------------------------------------- K.A.R.A Menu
