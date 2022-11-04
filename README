@@ -1,0 +1,45 @@
+  _____                _   __  __
+ |  __ \              | | |  \/  |
+ | |__) |___  __ _  __| | | \  / | ___
+ |  _  // _ \/ _` |/ _` | | |\/| |/ _ \
+ | | \ \  __/ (_| | (_| | | |  | |  __/
+ |_|  \_\___|\__,_|\__,_| |_|  |_|\___|
+
+Intro:
+	This is a simple speech recognition program that will recognize voice commands
+  and will be able to do simple online commands such as web search, send emails
+  and text messages, along with being able to give word definitions, weather
+  updates, and simple face recognition function. It is a simple chat bot program
+  that can be updated and further improved.
+
+Requirements:
+  - Be sure to have Python 3.6 installed on your machine and as the default
+  environment in VS 2019.
+	- Install the requirements from the requirements text.
+  - MySQL database.
+  - Twilio account.
+  - An email domain for program
+
+Prerequisite:
+  - MySQL server has to be running before the program is able to execute.
+
+Update:
+  The following command can be used to upgrade pip installed packages:
+    pip freeze — local | grep -v ‘^\-e’ | cut -d = -f 1 | xargs -n1 pip install
+    -U
+  The commands grep, cut, and xargs must be installed manually if you are not
+  running Linux or MacOS.
+  
+Run:
+  In order to run the application, simply run the command "python assistant.py"
+  in the directory in which the executable exist.
+
+TODO:
+  	- Email function should contact list of possible
+  	emails from MySQL database or JSON file
+  	- ability to call phone numbers from contact list
+  	using JSON or MySQL database
+  	- criminal database access
+  	- geolocation tracker
+  	- work on facial detection for Kinect or cameras
+  	- add a new voice (created from audio voice lines)
